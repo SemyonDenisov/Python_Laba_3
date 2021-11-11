@@ -1,6 +1,7 @@
 import json
 import re
 import argparse
+
 from tqdm import tqdm
 
 
@@ -136,7 +137,6 @@ class Record:
         return self.data[key]
 
 
-"""main"""
 parser = argparse.ArgumentParser(description='Validator')
 parser.add_argument('indir', type=str, help='Input dir')
 parser.add_argument('outdir', type=str, help='Output dir')
