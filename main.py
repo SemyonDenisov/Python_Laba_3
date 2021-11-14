@@ -1,10 +1,10 @@
 import json
 import argparse
-from Validator.ValidatorModule import Validator, Record
+from Validator_and_mergesort.ValidatorModule import Validator, Record
 import random
 import pickle
 
-# parser = argparse.ArgumentParser(description='Validator')
+# parser = argparse.ArgumentParser(description='Validator_and_mergesort')
 # parser.add_argument('indir', type=str, help='Input dir')
 # parser.add_argument('outdir', type=str, help='Output dir')
 # args = parser.parse_args()
